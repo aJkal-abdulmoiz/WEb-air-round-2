@@ -1,0 +1,276 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;400;500;600;700&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@100;200;400;500;600;700&family=Raleway:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("");
+    
+}
+
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-size: 16px;
+}
+
+
+.navbar{
+    position: sticky;
+    width: 100%;
+    background: #ffff;
+    color: #000;
+
+
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    align-items: center;
+    margin: 0 30px;
+}
+
+.menu-items{
+    order: 1;
+    display: flex;
+}
+
+.menu-items li{
+    list-style: none;
+    margin-left: 1.5rem;
+    font-size: 1rem;
+}
+
+.navbar a{
+    color: #444;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.logo img{
+    width: 66%;
+}
+
+#about{
+    padding: 50px 0px;
+    background: #f5f5f7;
+}
+
+.about-wrapper{
+    display: flex;
+    flex-wrap:wrap ;
+    background: #f5f5f7;
+
+}
+
+#about h2{
+    font-size: 2.5rem;
+
+}
+
+#about p{
+    font-size: 1.6rem;
+    color: #555;
+}
+
+#about small{
+    font-size: 1.5rem;
+    color: #666;
+    font-weight: 600;
+}
+
+.about-img{
+    flex: 1 1 400px;
+    padding: 30px;
+
+}
+
+.about .box{
+    border: 2px solid grey;
+}
+
+.about-text{
+    flex: 1 1 400px;
+    padding: 30px;
+    margin: auto;
+}
+
+.about-img img{
+    display: block;
+    height: 400px;
+    max-width: 100%;
+    margin: auto;
+    object-fit: cover;
+    object-position: right;
+}
+
+.heading-1{
+    margin-bottom: 10px;
+
+}
+
+.email-form{
+    margin-top: 40px;
+}
+
+.email-form .email1 {
+    width: 50%;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.email-form .btn {
+    width: 35%;
+    height: 40px;
+    background-color: hsl(224, 93%, 58%);
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+
+.start{
+   
+
+}
+
+
+.start-1{
+
+    display: flex;
+}
+
+.img-1 img{
+    width: 30%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    background-color: #041e42;
+    padding-bottom: 20px;
+
+}
+
+#newsletter h4{
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#newsletter p{
+    font-size: 12px;
+    font-weight:600;
+    color: #8183a0;
+}
+
+
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+
+}
+
+
+#newsletter button{
+    background-color: #c8c6c6;
+    color: #ffffff;
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #041e42;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+footer .logo{
+    margin-bottom: 30px;
+} 
+
+footer h4{
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+footer p{
+    font-size: 13px;
+    margin-bottom: 0 0 8px 0;
+}
+
+footer a{
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: white;
+    padding-right: 4px;
+    cursor: pointer;
+}
+
+footer .install .row img{
+    border: 1px solid #606063;
+    border-radius: 6px;
+}
+
+footer .install img{
+    margin: 10px 0 15px 0;
+}
+
+
+
+footer .copyright{
+    width: 100%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 850px) {
+    button{
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 569px) {
+
+}
+
+@media screen and (max-width: 410px) {
+
+}
